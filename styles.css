@@ -1,52 +1,72 @@
 /*  your css code here. If applicable */
-#main{
+.container{
 	border:2px solid black;
 	text-align:center;
 	border-radius:30px;
-	diplay:inline-block;
+	diplay:flex;
+	flex-direction:row;
 	background-color:rgba(175,175,175,0.6);
 	padding:20px;
 	line-height:80px;
 	width:400px;
 	height:100px;
+	
 
 }
-/*.sub{
+.sub{
 	
 	padding:10px;
 	text-align:center;
-	border-radius:75%;
+	border-radius:100%;
 	margin:10px;
-}*/
+	diplay:flex;
+	flex-direction:row;
+	width:75px;
+	height:50px;
+	
+}
 
 #green{
-	background-color:green;
-	diplay:inline-block;
+	width:75px;
+	height:50px;
+	background-color:rgb(0,128,0);
 	padding:10px;
 	text-align:center;
-	border-radius:50%;
+	border-radius:100%;
 	margin:10px;
+	diplay:flex;
+	flex-direction:row;
+	border:2px solid green;
+	
 	}
 
 #yellow{
-	background-color:yellow;
-	diplay:inline-block;
-	padding:10px;
+	width:75px;
+	height:50px;
+	background-color:rgb(255,255,0);
+	bpadding:10px;
 	text-align:center;
-	border-radius:50%;
+	border-radius:100%;
 	margin:10px;
+	diplay:flex;
+	flex-direction:row;
+	border:2px solid yellow;
+	
 	
 }
 
 #red{
-	background-color:red;
-	diplay:inline-block;
+	width:75px;
+	height:50px;
+	background-color:rgb(255,0,0);
 	padding:10px;
 	text-align:center;
-	border-radius:50%;
+	border-radius:100%;
 	margin:10px;
-	width:100;
-	length:auto;
+	diplay:flex;
+	flex-direction:row;
+	border:2px solid red;
+	
 	
 	
 }
