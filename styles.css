@@ -1,1 +1,52 @@
 /*  your css code here. If applicable */
+#main{
+	border:2px solid black;
+	text-align:center;
+	border-radius:30px;
+	diplay:inline-block;
+	background-color:rgba(175,175,175,0.6);
+	padding:20px;
+	line-height:80px;
+	width:400px;
+	height:100px;
+
+}
+/*.sub{
+	
+	padding:10px;
+	text-align:center;
+	border-radius:75%;
+	margin:10px;
+}*/
+
+#green{
+	background-color:green;
+	diplay:inline-block;
+	padding:10px;
+	text-align:center;
+	border-radius:50%;
+	margin:10px;
+	}
+
+#yellow{
+	background-color:yellow;
+	diplay:inline-block;
+	padding:10px;
+	text-align:center;
+	border-radius:50%;
+	margin:10px;
+	
+}
+
+#red{
+	background-color:red;
+	diplay:inline-block;
+	padding:10px;
+	text-align:center;
+	border-radius:50%;
+	margin:10px;
+	width:100;
+	length:auto;
+	
+	
+}
