@@ -13,7 +13,7 @@
 	
 
 }
-.sub{
+.const{
 	
 	padding:10px;
 	text-align:center;
@@ -23,7 +23,8 @@
 	flex-direction:row;
 	width:75px;
 	height:50px;
-	
+	background-color:rgba(175,175,175,0.6);
+	border:2px solid black;
 }
 
 #green{
